@@ -13,16 +13,16 @@ where myfile.json is a file like
     "pin": "1234",
     "questions": [
         {
-            question: "First name of first girlfriend?",
-            answer: "answer"
+            "question": "First name of first girlfriend?",
+            "answer": "answer"
         },
         {
-            question: "Name of first elementary school?",
-            answer: "answer"
+            "question": "Name of first elementary school?",
+            "answer": "answer"
         },
         {
-            question: "City of first elementary school?",
-            answer: "answer"
+            "question": "City of first elementary school?",
+            "answer": "answer"
         }
     ],
     "transfer": [
@@ -45,7 +45,7 @@ This will return a json object in the form:
 ``` json
 {
     "username": "username",
-    "password": "password",
+    "password": "apassword",
     "pin": "1234",
     "questions": [
         {
